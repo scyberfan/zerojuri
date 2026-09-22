@@ -1,6 +1,7 @@
 window.ZEROJURI_EVENTS = [
   {
     "date": "2026-09-11",
+    "releaseDay": 1,
     "weekday": "金",
     "place": "池袋・サンシャインシティ 噴水広場",
     "url": "https://aosai-fc.bitfan.id/contents/434644",
@@ -20,6 +21,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-09-12",
+    "releaseDay": 2,
     "weekday": "土",
     "place": "クイーンズスクエア横浜 クイーンズサークル",
     "url": "https://aosai-fc.bitfan.id/contents/434645",
@@ -34,6 +36,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-09-13",
+    "releaseDay": 3,
     "weekday": "日",
     "place": "KABUKICHO TOWER STAGE",
     "url": "https://aosai-fc.bitfan.id/contents/434646",
@@ -48,6 +51,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-09-19",
+    "releaseDay": 4,
     "weekday": "土",
     "place": "横浜ビブレniigo広場（屋外イベントスペース）",
     "url": "https://aosai-fc.bitfan.id/contents/434647",
@@ -67,6 +71,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-09-20",
+    "releaseDay": 5,
     "weekday": "日",
     "place": "立川タクロス イベントスペース",
     "url": "https://aosai-fc.bitfan.id/contents/434865",
@@ -82,6 +87,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-09-23",
+    "releaseDay": 6,
     "weekday": "水祝",
     "place": "日本丸メモリアルパークアリーナ",
     "url": "https://aosai-fc.bitfan.id/contents/437324",
@@ -96,6 +102,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-03",
+    "releaseDay": 7,
     "weekday": "土",
     "place": "クイーンズスクエア横浜 クイーンズサークル",
     "url": "",
@@ -111,6 +118,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-04",
+    "releaseDay": 8,
     "weekday": "日",
     "place": "ビナウォーク海老名",
     "url": "",
@@ -126,6 +134,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-11",
+    "releaseDay": 9,
     "weekday": "日",
     "place": "ヴィレッジ・ヴァンガード渋谷本店",
     "url": "",
@@ -141,6 +150,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-12",
+    "releaseDay": 10,
     "weekday": "月",
     "place": "SHIBUYA STREAM 稲荷橋広場",
     "url": "",
@@ -156,6 +166,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-17",
+    "releaseDay": 11,
     "weekday": "土",
     "place": "会場調整中",
     "url": "",
@@ -170,6 +181,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-18",
+    "releaseDay": 12,
     "weekday": "日",
     "place": "千葉県某所",
     "url": "",
@@ -185,6 +197,7 @@ window.ZEROJURI_EVENTS = [
   },
   {
     "date": "2026-10-28",
+    "releaseDay": 13,
     "weekday": "水",
     "place": "SHIBUYA SCRAMBLE S CROSS STAGE SHIBUYA",
     "url": "",
