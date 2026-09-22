@@ -5,7 +5,7 @@
   const STYLE_ID = "zerojuri-night-effect-style";
   const START_HOUR = 20;
   const END_HOUR = 5;
-  const PARTICLE_COUNT = 35;
+  const PARTICLE_COUNT = 45;
 
   function isNightTime() {
     const hour = new Date().getHours();
