@@ -21,7 +21,7 @@
       #${EFFECT_ID}{
         position:fixed;
         inset:0;
-        z-index:1;
+        z-index:9000;
         overflow:hidden;
         pointer-events:none;
         user-select:none;
