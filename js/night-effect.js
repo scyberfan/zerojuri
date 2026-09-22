@@ -30,7 +30,7 @@
       #${EFFECT_ID} .zerojuri-night-veil{
         position:absolute;
         inset:0;
-        background:rgba(16,22,38,.15);
+        background:rgba(16,22,38,.22);
         pointer-events:none;
       }
 
