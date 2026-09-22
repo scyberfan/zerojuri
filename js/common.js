@@ -64,6 +64,7 @@ function renderSchedule(){
         <span>/ 集合 ${esc(x.meeting||"未定")}</span>
       </div>`).join("");
     const content=`
+      ${e.releaseDay!=null?`<span class="release-day">DAY ${String(e.releaseDay).padStart(2,"0")}</span>`:""}
       <div class="datebox"><small>${esc(y)}.</small><strong>${Number(m)}.${Number(d)}</strong><em class="w-${esc(e.weekday)}">${esc(e.weekday)}</em></div>
       <div class="body">${sessions}<div class="meta">
         <div><label>場所</label><p>${esc(e.place||"未定")}</p></div>
@@ -89,6 +90,6 @@ document.addEventListener("DOMContentLoaded",()=>{injectHeader();renderSchedule(
 })();
 ;(()=>{if(document.getElementById("priority-area-info-style"))return;
 const st=document.createElement("style");st.id="priority-area-info-style";
-st.textContent=".priority-info-note{display:block;margin-top:4px;font-size:9px;line-height:1.5;color:#7d7068}";
+st.textContent=".priority-info-note{display:block;margin-top:4px;font-size:9px;line-height:1.5;color:#7d7068}.release-day{position:absolute;top:8px;left:10px;z-index:2;font-size:9px;line-height:1;letter-spacing:.08em;color:#7d7068;background:none;border:0;padding:0}";
 document.head.appendChild(st);
 })();
