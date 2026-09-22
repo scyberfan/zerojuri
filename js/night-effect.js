@@ -3,7 +3,7 @@
 
   const EFFECT_ID = "zerojuri-night-effect";
   const STYLE_ID = "zerojuri-night-effect-style";
-  const START_HOUR = 21;
+  const START_HOUR = 20;
   const END_HOUR = 5;
   const PARTICLE_COUNT = 30;
 
