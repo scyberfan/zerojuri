@@ -1,8 +1,16 @@
 (() => {
   "use strict";
 
-  const EFFECT_ID = "zerojuri-night-effect-test";
-  const STYLE_ID = "zerojuri-night-effect-test-style";
+  const EFFECT_ID = "zerojuri-night-effect";
+  const STYLE_ID = "zerojuri-night-effect-style";
+  const START_HOUR = 20;
+  const END_HOUR = 5;
+  const PARTICLE_COUNT = 30;
+
+  function isNightTime() {
+    const hour = new Date().getHours();
+    return hour >= START_HOUR || hour < END_HOUR;
+  }
 
   function createStyle() {
     if (document.getElementById(STYLE_ID)) return;
@@ -11,29 +19,47 @@
     style.id = STYLE_ID;
     style.textContent = `
       #${EFFECT_ID}{
-        position:fixed !important;
-        inset:0 !important;
-        z-index:999999 !important;
-        pointer-events:none !important;
+        position:fixed;
+        inset:0;
+        z-index:9000;
+        overflow:hidden;
+        pointer-events:none;
+        user-select:none;
       }
 
-      #${EFFECT_ID} .night-test-light{
-        position:absolute !important;
-        width:30px !important;
-        height:30px !important;
-        border-radius:50% !important;
-        background:#fff !important;
+      #${EFFECT_ID} .zerojuri-night-light{
+        position:absolute;
+        width:var(--size);
+        height:var(--size);
+        left:var(--left);
+        top:var(--top);
+        border-radius:50%;
+        background:rgba(255,252,242,.98);
         box-shadow:
-          0 0 10px #fff,
-          0 0 25px #fff,
-          0 0 45px #fff !important;
-        opacity:1 !important;
+          0 0 5px rgba(255,252,242,.90),
+          0 0 11px rgba(244,229,199,.55);
+        opacity:0;
+        animation:
+          zerojuri-night-twinkle var(--twinkle) ease-in-out var(--delay) infinite,
+          zerojuri-night-drift var(--drift) ease-in-out var(--delay) infinite alternate;
       }
 
-      #${EFFECT_ID} .night-test-center{
-        left:50% !important;
-        top:50% !important;
-        transform:translate(-50%,-50%) !important;
+      @keyframes zerojuri-night-twinkle{
+        0%,100%{opacity:.12;transform:scale(.82)}
+        45%{opacity:var(--peak);transform:scale(1.12)}
+        68%{opacity:.22;transform:scale(.94)}
+      }
+
+      @keyframes zerojuri-night-drift{
+        from{margin-top:-2px;margin-left:-1px}
+        to{margin-top:5px;margin-left:3px}
+      }
+
+      @media (prefers-reduced-motion:reduce){
+        #${EFFECT_ID} .zerojuri-night-light{
+          animation:none;
+          opacity:.38;
+        }
       }
     `;
     document.head.appendChild(style);
@@ -48,23 +74,40 @@
     layer.id = EFFECT_ID;
     layer.setAttribute("aria-hidden", "true");
 
-    const center = document.createElement("span");
-    center.className = "night-test-light night-test-center";
-    layer.appendChild(center);
-
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < PARTICLE_COUNT; i++) {
       const light = document.createElement("span");
-      light.className = "night-test-light";
-      light.style.left = `${5 + Math.random() * 90}%`;
-      light.style.top = `${5 + Math.random() * 90}%`;
+      light.className = "zerojuri-night-light";
+
+      const size = (3 + Math.random() * 3).toFixed(2);
+      light.style.setProperty("--size", `${size}px`);
+      light.style.setProperty("--left", `${(Math.random() * 100).toFixed(2)}%`);
+      light.style.setProperty("--top", `${(Math.random() * 100).toFixed(2)}%`);
+      light.style.setProperty("--twinkle", `${(5.5 + Math.random() * 5.5).toFixed(2)}s`);
+      light.style.setProperty("--drift", `${(8 + Math.random() * 7).toFixed(2)}s`);
+      light.style.setProperty("--delay", `${(-Math.random() * 9).toFixed(2)}s`);
+      light.style.setProperty("--peak", `${(0.55 + Math.random() * 0.25).toFixed(2)}`);
+
       layer.appendChild(light);
     }
 
     document.body.appendChild(layer);
   }
 
+  function removeEffect() {
+    document.getElementById(EFFECT_ID)?.remove();
+  }
+
+  function updateEffect() {
+    if (isNightTime()) {
+      createEffect();
+    } else {
+      removeEffect();
+    }
+  }
+
   function init() {
-    createEffect();
+    updateEffect();
+    setInterval(updateEffect, 60 * 1000);
   }
 
   if (document.readyState === "loading") {
