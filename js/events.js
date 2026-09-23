@@ -98,7 +98,8 @@ window.ZEROJURI_EVENTS = [
         "meeting": "13:40"
       }
     ],
-    "priorityArea": "チケ発｜9/19 21:00〜"
+    "priorityArea": "チケ発｜9/19 21:00〜",
+    "note": "雨天中止。14:00-15:30特典会のみ。"
   },
   {
     "date": "2026-10-03",
