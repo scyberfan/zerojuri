@@ -106,32 +106,32 @@ window.ZEROJURI_EVENTS = [
     "releaseDay": 7,
     "weekday": "土",
     "place": "クイーンズスクエア横浜 クイーンズサークル",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/443807",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "13:00",
+        "meeting": "12:45"
       }
     ],
     "priorityArea": "未定",
-    "note": "昼一部制"
+    "note": "合同｜D.O.L/X8EE/君未来"
   },
   {
     "date": "2026-10-04",
     "releaseDay": 8,
     "weekday": "日",
     "place": "ビナウォーク海老名",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/443809",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "13:00",
+        "meeting": "12:45"
       }
     ],
     "priorityArea": "未定",
-    "note": "昼一部制"
+    "note": "合同｜X8EE、2部15:00〜整番(100STARS / UNIVER23 / 2xFE / Melty×Mellow)"
   },
   {
     "date": "2026-10-11",
