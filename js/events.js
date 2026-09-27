@@ -114,7 +114,7 @@ window.ZEROJURI_EVENTS = [
         "meeting": "12:45"
       }
     ],
-    "priorityArea": "未定",
+    "priorityArea": "リストバンド｜当日11:30〜",
     "note": "合同｜D.O.L/X8EE/君未来"
   },
   {
@@ -130,7 +130,7 @@ window.ZEROJURI_EVENTS = [
         "meeting": "12:45"
       }
     ],
-    "priorityArea": "未定",
+    "priorityArea": "リストバンド｜当日11:30〜",
     "note": "合同｜X8EE、2部15:00〜整番(100STARS / UNIVER23 / 2xFE / Melty×Mellow)"
   },
   {
