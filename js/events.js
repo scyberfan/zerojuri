@@ -138,32 +138,36 @@ window.ZEROJURI_EVENTS = [
     "releaseDay": 9,
     "weekday": "日",
     "place": "ヴィレッジ・ヴァンガード渋谷本店",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/443810",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "17:00",
+        "meeting": "16:45"
       }
     ],
-    "priorityArea": "未定",
-    "note": "夜一部制"
+    "priorityArea": "リストバンド｜当日15:30〜"
   },
   {
     "date": "2026-10-12",
     "releaseDay": 10,
     "weekday": "月",
     "place": "SHIBUYA STREAM 稲荷橋広場",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/445271",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "14:00"’
+        "meeting": "13:45"
+      },
+      {
+        "part": "②",
+        "start": "17:00"’
+        "meeting": "16:45"
       }
     ],
-    "priorityArea": "未定",
-    "note": "二部制"
+    "priorityArea": "チケ発｜10/7 ①22:30〜、②23:00〜",
+    "note": "合同｜X8EE"
   },
   {
     "date": "2026-10-17",
