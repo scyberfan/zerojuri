@@ -157,12 +157,12 @@ window.ZEROJURI_EVENTS = [
     "sessions": [
       {
         "part": "①",
-        "start": "14:00"’
+        "start": "14:00",
         "meeting": "13:45"
       },
       {
         "part": "②",
-        "start": "17:00"’
+        "start": "17:00",
         "meeting": "16:45"
       }
     ],
