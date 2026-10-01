@@ -216,4 +216,155 @@ window.ZEROJURI_EVENTS = [
     "priorityArea": "未定",
     "note": "夜一部制"
   }
-];
+,
+  {
+    "date": "2026-11-01",
+    "releaseDay": 14,
+    "weekday": "日",
+    "place": "未定",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-08",
+    "releaseDay": 15,
+    "weekday": "日",
+    "place": "未定",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-10",
+    "releaseDay": 16,
+    "weekday": "火",
+    "place": "オンライン",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-14",
+    "releaseDay": 17,
+    "weekday": "土",
+    "place": "ヴィレッジ・ヴァンガード渋谷本店",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-15",
+    "releaseDay": 18,
+    "weekday": "日",
+    "place": "未定",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-21",
+    "releaseDay": 19,
+    "weekday": "土",
+    "place": "タワーレコード新宿店",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-22",
+    "releaseDay": 20,
+    "weekday": "日",
+    "place": "未定",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-23",
+    "releaseDay": 21,
+    "weekday": "月",
+    "place": "未定",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-29",
+    "releaseDay": 22,
+    "weekday": "日",
+    "place": "未定",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定"
+  },
+  {
+    "date": "2026-11-30",
+    "releaseDay": 23,
+    "weekday": "月",
+    "place": "タワーレコード渋谷店",
+    "url": "",
+    "sessions": [
+      {
+        "part": "",
+        "start": "未定",
+        "meeting": "未定"
+      }
+    ],
+    "priorityArea": "未定",
+    "note": "フラゲ日"
+  }];
