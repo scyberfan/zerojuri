@@ -195,22 +195,27 @@ window.ZEROJURI_EVENTS = [
     "releaseDay": 12,
     "weekday": "日",
     "place": "イクスピアリ® 2F セレブレーション・プラザ",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/450276",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "13:00",
+        "meeting": "12:30"
+      },
+      {
+        "part": "②",
+        "start": "16:00",
+        "meeting": "15:30"
       }
     ],
-    "priorityArea": "未定",
-    "note": "二部制"
+    "priorityArea": "リストバンド｜当日11:30〜",
+    "note": "合同｜Last Prince"
   },
   {
     "date": "2026-10-28",
     "releaseDay": 13,
     "weekday": "水",
-    "place": "SHIBUYA SCRAMBLE S CROSS STAGE SHIBUYA",
+    "place": "SHIBUYA SCRAMBLE S CROSS STAGE",
     "url": "",
     "sessions": [
       {
