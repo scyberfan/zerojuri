@@ -173,22 +173,28 @@ window.ZEROJURI_EVENTS = [
     "date": "2026-10-17",
     "releaseDay": 11,
     "weekday": "土",
-    "place": "会場調整中",
-    "url": "",
+    "place": "ビナウォーク海老名5番館1階ビナステップ",
+    "url": "https://aosai-fc.bitfan.id/contents/449652",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "13:00",
+        "meeting": "12:45"
+      },
+      {
+        "part": "②",
+        "start": "16:00",
+        "meeting": "15:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日11:30〜",
+    "note": "合同｜Last Prince"
   },
   {
     "date": "2026-10-18",
     "releaseDay": 12,
     "weekday": "日",
-    "place": "千葉県某所",
+    "place": "イクスピアリ® 2F セレブレーション・プラザ",
     "url": "",
     "sessions": [
       {
