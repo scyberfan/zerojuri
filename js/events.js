@@ -216,47 +216,57 @@ window.ZEROJURI_EVENTS = [
     "releaseDay": 13,
     "weekday": "水",
     "place": "SHIBUYA SCRAMBLE S CROSS STAGE",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/450277",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "18:30",
+        "meeting": "18:15"
       }
     ],
-    "priorityArea": "未定",
-    "note": "夜一部制"
+    "priorityArea": "リストバンド｜当日17:00～"
   }
 ,
   {
     "date": "2026-11-01",
     "releaseDay": 14,
     "weekday": "日",
-    "place": "未定",
-    "url": "",
+    "place": "たまプラーザテラス ゲートプラザ1F フェスティバルコート",
+    "url": "https://aosai-fc.bitfan.id/contents/453614",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "13:00",
+        "meeting": "12:45"
+      },
+      {
+        "part": "②",
+        "start": "16:00",
+        "meeting": "15:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日11:30～"
   },
   {
     "date": "2026-11-08",
     "releaseDay": 15,
     "weekday": "日",
-    "place": "未定",
-    "url": "",
+    "place": "イオンモールむさし村山 １Fセンターコート",
+    "url": "https://aosai-fc.bitfan.id/contents/453619",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "15:00",
+        "meeting": "14:45"
+      },
+      {
+        "part": "②",
+        "start": "17:45",
+        "meeting": "17:30"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日14:00～",
+    "note": "合同｜100STARS"
   },
   {
     "date": "2026-11-10",
@@ -278,51 +288,57 @@ window.ZEROJURI_EVENTS = [
     "releaseDay": 17,
     "weekday": "土",
     "place": "ヴィレッジ・ヴァンガード渋谷本店",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/453623",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "13:00",
+        "meeting": "12:45"
+      },
+      {
+        "part": "②",
+        "start": "16:00",
+        "meeting": "15:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日11:30～",
+    "note": "合同｜君未来。(O.A出演)"
   },
   {
     "date": "2026-11-15",
     "releaseDay": 18,
     "weekday": "日",
-    "place": "未定",
-    "url": "",
+    "place": "タワーレコード渋谷店 屋上イベントスペース",
+    "url": "https://aosai-fc.bitfan.id/contents/453636",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "13:00",
+        "meeting": "12:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日11:30～"
   },
   {
     "date": "2026-11-21",
     "releaseDay": 19,
     "weekday": "土",
     "place": "タワーレコード新宿店",
-    "url": "",
+    "url": "https://aosai-fc.bitfan.id/contents/453638",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "13:00",
+        "meeting": "12:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日11:30～"
   },
   {
     "date": "2026-11-22",
     "releaseDay": 20,
     "weekday": "日",
-    "place": "未定",
+    "place": "東京都内某所",
     "url": "",
     "sessions": [
       {
@@ -331,13 +347,14 @@ window.ZEROJURI_EVENTS = [
         "meeting": "未定"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "未定",
+    "note": "夜一部制"
   },
   {
     "date": "2026-11-23",
     "releaseDay": 21,
     "weekday": "月",
-    "place": "未定",
+    "place": "埼玉県某所",
     "url": "",
     "sessions": [
       {
@@ -346,13 +363,14 @@ window.ZEROJURI_EVENTS = [
         "meeting": "未定"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "未定",
+    "note": "二部制"
   },
   {
     "date": "2026-11-29",
     "releaseDay": 22,
     "weekday": "日",
-    "place": "未定",
+    "place": "会場調整中",
     "url": "",
     "sessions": [
       {
@@ -367,7 +385,7 @@ window.ZEROJURI_EVENTS = [
     "date": "2026-11-30",
     "releaseDay": 23,
     "weekday": "月",
-    "place": "タワーレコード渋谷店",
+    "place": "東京都内某所",
     "url": "",
     "sessions": [
       {
@@ -377,5 +395,5 @@ window.ZEROJURI_EVENTS = [
       }
     ],
     "priorityArea": "未定",
-    "note": "フラゲ日"
+    "note": "夜一部制、フラゲ日"
   }];
