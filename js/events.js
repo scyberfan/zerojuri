@@ -361,7 +361,7 @@ window.ZEROJURI_EVENTS = [
     "releaseDay": 21,
     "weekday": "月",
     "place": "ららぽーと新三郷 本館 1F スカイガーデンステージ",
-    "url": "https://aosai-fc.bitfan.id/contents/456967 ",
+    "url": "https://aosai-fc.bitfan.id/contents/456967",
     "sessions": [
       {
         "part": "①",
@@ -390,7 +390,7 @@ window.ZEROJURI_EVENTS = [
         "meeting": "11:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "リストバンド｜当日xx:xx～"
   },
   {
     "date": "2026-11-30",
@@ -405,7 +405,7 @@ window.ZEROJURI_EVENTS = [
         "meeting": "18:45"
       }
     ],
-    "priorityArea": "priorityArea": "リストバンド｜当日17:30～,",
+    "priorityArea": "リストバンド｜当日17:30～",
     "note": "フラゲ日"
   },
   {
@@ -463,7 +463,7 @@ window.ZEROJURI_EVENTS = [
         "meeting": "15:45"
       }
     ],
-    "priorityArea": "priorityArea": "リストバンド｜当日11:30～,",
+    "priorityArea": "リストバンド｜当日11:30～",
     "note": "合同｜X8EE"
   },
   {
@@ -474,16 +474,16 @@ window.ZEROJURI_EVENTS = [
     "url": "https://aosai-fc.bitfan.id/contents/464876",
     "sessions": [
       {
-        "part": "",
+        "part": "①",
         "start": "15:30",
         "meeting": "15:15"
       },
       {
-        "part": "",
+        "part": "②",
         "start": "18:00",
         "meeting": "17:45"
       }
     ],
-    "priorityArea": "priorityArea": "リストバンド｜当日14:30～,",
+    "priorityArea": "priorityArea": "リストバンド｜当日14:30～",
     "note": "リリースイベント最終日"
   }];
