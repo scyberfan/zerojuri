@@ -272,16 +272,22 @@ window.ZEROJURI_EVENTS = [
     "date": "2026-11-10",
     "releaseDay": 16,
     "weekday": "火",
-    "place": "オンライン",
-    "url": "",
+    "place": "リミスタオンライントーク特典会",
+    "url": "https://aosai-fc.bitfan.id/contents/461158",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "19：00",
+        "meeting": "18:45～19:15"
+      },
+      {
+        "part": "②",
+        "start": "20：30",
+        "meeting": "20:15～20:45"
       }
     ],
-    "priorityArea": "未定"
+    "priorityArea": "2026年11月4日(水)22時〜各部スタートから10分後まで",
+    "note": "①矢後敦海 / 一宮遥 / 坂口侑也、②米村俊哉 / 成瀬力弥 / 宇田川大和"
   },
   {
     "date": "2026-11-14",
@@ -354,29 +360,34 @@ window.ZEROJURI_EVENTS = [
     "date": "2026-11-23",
     "releaseDay": 21,
     "weekday": "月",
-    "place": "埼玉県某所",
-    "url": "",
+    "place": "ららぽーと新三郷 本館 1F スカイガーデンステージ",
+    "url": "https://aosai-fc.bitfan.id/contents/456967 ",
     "sessions": [
       {
-        "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "part": "①",
+        "start": "12:30",
+        "meeting": "12:15"
+      },
+      {
+        "part": "②",
+        "start": "15:30",
+        "meeting": "15:15"
       }
     ],
-    "priorityArea": "未定",
-    "note": "二部制"
+    "priorityArea": "リストバンド｜当日11:00～",
+    "note": "合同｜X8EE"
   },
   {
     "date": "2026-11-29",
     "releaseDay": 22,
     "weekday": "日",
-    "place": "会場調整中",
+    "place": "タワーレコード錦糸町パルコ店 店内イベントスペース",
     "url": "",
     "sessions": [
       {
         "part": "",
-        "start": "未定",
-        "meeting": "未定"
+        "start": "12:00",
+        "meeting": "11:45"
       }
     ],
     "priorityArea": "未定"
@@ -385,15 +396,94 @@ window.ZEROJURI_EVENTS = [
     "date": "2026-11-30",
     "releaseDay": 23,
     "weekday": "月",
-    "place": "東京都内某所",
-    "url": "",
+    "place": "タワーレコード渋谷店 B1F CUTUP STUDIO",
+    "url": "https://aosai-fc.bitfan.id/contents/461157",
     "sessions": [
       {
         "part": "",
+        "start": "19:00",
+        "meeting": "18:45"
+      }
+    ],
+    "priorityArea": "priorityArea": "リストバンド｜当日17:30～,",
+    "note": "フラゲ日"
+  },
+  {
+    "date": "2026-12-01",
+    "releaseDay": 24,
+    "weekday": "火",
+    "place": "HMV＆BOOKS SHIBUYA 5Fイベントスペース",
+    "url": "https://aosai-fc.bitfan.id/contents/464875",
+    "sessions": [
+      {
+        "part": "",
+        "start": "18:30",
+        "meeting": "18:15"
+      }
+    ],
+    "priorityArea": "priorityArea": "リストバンド｜当日17:00～,",
+    "note": "発売日"
+  },
+  {
+    "date": "2026-12-04",
+    "releaseDay": 25,
+    "weekday": "金",
+    "place": "リミスタオンライントーク特典会",
+    "url": "",
+    "sessions": [
+      {
+        "part": "①",
+        "start": "未定",
+        "meeting": "未定"
+      },
+      {
+        "part": "②",
         "start": "未定",
         "meeting": "未定"
       }
     ],
     "priorityArea": "未定",
-    "note": "夜一部制、フラゲ日"
+    "note": ""
+  },
+  {
+    "date": "2026-12-05",
+    "releaseDay": 26,
+    "weekday": "土",
+    "place": "ららぽーとTOKYO-BAY North Gateみどりの広場",
+    "url": "https://aosai-fc.bitfan.id/contents/464969",
+    "sessions": [
+      {
+        "part": "①",
+        "start": "13:00",
+        "meeting": "12:45"
+      },
+      {
+        "part": "②",
+        "start": "16:00",
+        "meeting": "15:45"
+      }
+    ],
+    "priorityArea": "priorityArea": "リストバンド｜当日11:30～,",
+    "note": "合同｜X8EE"
+  },
+  {
+    "date": "2026-12-06",
+    "releaseDay": 27,
+    "weekday": "日",
+    "place": "池袋・サンシャインシティ 噴水広場",
+    "url": "https://aosai-fc.bitfan.id/contents/464876",
+    "sessions": [
+      {
+        "part": "",
+        "start": "15:30",
+        "meeting": "15:15"
+      },
+      {
+        "part": "",
+        "start": "18:00",
+        "meeting": "17:45"
+      }
+    ],
+    "priorityArea": "priorityArea": "リストバンド｜当日14:30～,",
+    "note": "リリースイベント最終日"
   }];
