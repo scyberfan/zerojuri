@@ -421,7 +421,7 @@ window.ZEROJURI_EVENTS = [
         "meeting": "18:15"
       }
     ],
-    "priorityArea": "priorityArea": "リストバンド｜当日17:00～,",
+    "priorityArea": "リストバンド｜当日17:00～,",
     "note": "発売日"
   },
   {
@@ -484,6 +484,6 @@ window.ZEROJURI_EVENTS = [
         "meeting": "17:45"
       }
     ],
-    "priorityArea": "priorityArea": "リストバンド｜当日14:30～",
+    "priorityArea": "リストバンド｜当日14:30～",
     "note": "リリースイベント最終日"
   }];
